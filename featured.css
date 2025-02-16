@@ -1,0 +1,136 @@
+.featured--subtitle{
+    font-size:var(--size-s);
+    color: var(--clr-idigo);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.featured--title{
+    font-size: var(--size-xl);
+    color: var(--clr-rose);
+    text-transform: uppercase;
+}
+
+.featured--description{
+    max-width: 60ch;
+    color: var(--clr-slate600);
+    font-size: var(--size-s);
+    margin: 1rem 0 ;
+}
+
+.featured--lable{
+    font-size: var(--size-base);
+    text-transform: capitalize;
+    margin-bottom: 0.25em;
+}
+
+.featured--techstack{
+    padding: 0;
+    list-style: none;
+}
+
+.featured--info{
+    font-size: var(--size-s);
+    color: var(--clr-slate600);
+    text-transform: capitalize;
+}
+
+.featured--info-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.featured--info-container div {
+    flex: 1;
+    min-width: 250px;
+}
+/*xs*/
+@media ( min-width:475px){
+    .featured--description{
+        margin: 1.5rem 0;
+        font-size: var(--size-base);
+        
+    }
+
+    .featured--subtitle{
+        font-size:var(--size-base);
+    }
+    
+    .featured--title{
+        font-size: var(--size-3xl);
+    }
+
+    .featured--lable{
+        font-size: var(--size-lg);
+
+    }
+    
+    .featured--info{
+        font-size: var(--size-base);
+        
+    }
+}
+
+/*sm*/
+/*@media ( min-width:640px){}
+
+/*md*/
+/*@media ( min-width:768px){}
+
+/*lg*/
+@media ( min-width:1024px){
+    .featured--description{
+        
+        font-size: var(--size-lg);
+        
+    }
+
+    .featured--subtitle{
+        font-size:var(--size-lg);
+    }
+    
+    .featured--title{
+        font-size: var(--size-4xl);
+    }
+
+    .featured--lable{
+        font-size: var(--size-xl);
+
+    }
+    
+    .featured--info{
+        font-size: var(--size-lg);
+        
+    }
+}
+
+/*xlg*/
+@media ( min-width:1280px){
+    .featured--description{
+        margin: 2rem 0;
+        font-size: var(--size-xl);
+        
+    }
+
+    .featured--subtitle{
+        font-size:var(--size-xl);
+    }
+    
+    .featured--title{
+        font-size: var(--size-3xl);
+    }
+
+    .featured--lable{
+        font-size: var(--size-2xl);
+
+    }
+    
+    .featured--info{
+        font-size: var(--size-xl);
+        
+    }
+}
+
+/*2xlg*/
+/*@media ( min-width:1536px){}*/

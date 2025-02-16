@@ -1,0 +1,101 @@
+.btn{
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--clr-rose);
+    color: var(--clr-light);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5), 0 6px 6px
+    rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+    }
+    
+    .btn:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25), 0 10px 10px
+        rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+    
+    }
+    
+    
+    /* remember to add classes*/
+    
+    
+    .container{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        /*add to xs make max width the same
+         px value  then and to other
+         media querires making all same max width value*/
+    }
+    
+    .section{
+    margin-top: 5rem;
+    /*add to large media quuery
+    the margin top of the section 
+    utility class added suld be doubled*/
+    }
+    
+    
+    /*xs*/
+    /*@media ( min-width:475px){}
+    
+    /*sm*/
+    /*@media ( min-width:640px){}
+    
+    /*md*/
+    /*@media ( min-width:768px){}
+    
+    /*lg*/
+    /*@media ( min-width:1024px){}
+    
+    /*xlg*/
+    /*@media ( min-width:1280px){}
+    
+    /*2xlg*/
+    /*@media ( min-width:1536px){}*/
+    
+    
+    /*To make a hover change for images in css
+    
+    .class-wrapper{
+    position: relative
+    }
+    
+    .class-wrapper::after{ 
+    content: '';
+    backgroundcolor : ;
+    width:100 percent;
+    heigth:100 percent;
+    top:0;
+    left:0;
+    z-index:1;
+    transition:background color 0.3s;
+    }
+    
+    .class :hover ::after {
+    backgroun color
+    }
+    
+    
+    using a wrapped container to arrange images
+    .class -container{
+    margin top: 1rem;
+    display:grid;
+    grid template columns : repeat(auto-fit, minmax(300px, 1fr)),
+    grid gap: 1rem;
+    }
+    
+    .class container{
+    margin top : 1.5rem;
+    grid gap : 1.5rem;
+    }
+    
+    put in xlg media query and increase to two rem 
+    
+    to make only two images max on big screens paste it in small media query 300px to 500px delete all only 
